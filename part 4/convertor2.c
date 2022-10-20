@@ -12,7 +12,7 @@ int main()
     printf("Enter q if you want to Exit the Program.\n");
     printf("Enter here:\n");
     scanf("%c",&a);
-    if (a=='1')
+    if (a=='a')
     {
         float a;
         printf("Enter kilometers:\n");

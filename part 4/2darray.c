@@ -4,9 +4,9 @@ int main()
 {
 
 	//Two dimensional array
-	int Matrice[3][3]; 
+	int Matrice[4][3]; 
 	printf("This Program will print no. from 1-9 in matrice form : \n\n");
-	for (int i=0;i<3;i++)
+	for (int i=0;i<4;i++)
 	{
 		for (int j=0;j<3;j++)
 		{
@@ -15,7 +15,7 @@ int main()
 		}
 	}
 	printf("\n\n\n");
-	for (int i=0;i<3;i++)
+	for (int i=0;i<4;i++)
 	{
 		for (int j=0;j<3;j++)
 		{

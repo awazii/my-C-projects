@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main()
 {
-    char name[26];
-    char name1[26];
+   char name[26];
+   char name1[26];
     printf("Enter you name:\n");
     scanf("%s",&name);
     printf("enter you father's name:\n");

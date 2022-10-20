@@ -12,7 +12,7 @@ int main()
 	sum += marks[i];
 	}
 
-	int average = sum/10;
+	int average = sum/6;
 	printf("\nThe average marks of 10 students are %d", average);
 	return 0;
 }

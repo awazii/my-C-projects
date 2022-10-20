@@ -2,7 +2,7 @@
 int main()
 {
     char name[30];
-    char gender[6];
+    char gender[15];
     char a[40];
     char b[10];
     int age;
@@ -39,11 +39,5 @@ int main()
     printf("So You are %s\n",gender);
     printf("Let me tell you about yourself:\nYour name is %s\nyour gender is %s\nyour height is %0.2f\nyour age is %d\n",name,gender,height,age);
     printf("Byeee...");
-if (name=="zuzu")
-{
-    printf("gandoo");
-}
-
-
     return 0;
 }

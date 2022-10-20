@@ -25,18 +25,24 @@ int main()
     {
        int i,j,k,s,a;
     k=1;
+    int b,c,d;
+        b=-1;
+        c=1;
     printf("Enter the row of pyramid:\n");
     scanf("%d",&a);
     for ( i = 1; i <=a; i++)
     {
         for ( s = 1; s <=(a-i); s++)
         {
-           printf(" ");
+           printf(" \t");
         }
-        
+
         for ( j= 1; j<=k; j++)
         {
-            printf("*");
+            d=b+c;
+            printf("%d\t",d);
+            b = c;
+            c = d;
         }
         printf("\n");
         k+=2;  
@@ -57,12 +63,12 @@ int main()
     {
         for ( int s = 1; s <=(a-i); s++)
         {
-           printf(" ");
+           printf(" \t");
         }
         
         for ( j= 1; j<=b; j++)
         {
-            printf("*");
+            printf("*\t");
         }
         printf("\n");
          b-=2;
